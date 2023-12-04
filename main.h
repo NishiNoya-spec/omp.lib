@@ -18,15 +18,4 @@ std::vector<std::vector<int>> multiplyMatrices(const std::vector<std::vector<int
 void task4();
 
 
-class MyClass {
-public:
-    int var1;
-    int var2;
-    int arr[2] = {0, 0};
-    MyClass() {
-        var1 = 0;
-        var2 = 0;
-    }
-};
-
 #endif // MAIN_H

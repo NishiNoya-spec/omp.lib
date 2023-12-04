@@ -8,17 +8,6 @@
 
 using namespace std;
 
-void swap(int &x, int &y) {
-    int temp = x;
-    x = y;
-    y = temp;
-}
-
-void print() {
-    SetConsoleOutputCP(1251);
-    cout << "1251" << endl;
-}
-
 // Задание 1
 
 void task1() {
@@ -199,8 +188,8 @@ void task4() {
 
     // Вывод результата (пример вывода первых 5x5 элементов)
     cout << "Рассчитанная матрица (первые 10x10 элементов):" << endl;
-    for (int i = 0; i < min(size, 5); ++i) {
-        for (int j = 0; j < min(size, 5); ++j) {
+    for (int i = 0; i < min(size, 10); ++i) {
+        for (int j = 0; j < min(size, 10); ++j) {
             cout << result[i][j] << " ";
         }
         cout << endl;
